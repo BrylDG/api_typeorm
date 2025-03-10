@@ -10,7 +10,7 @@ const dbConfig = {
     username: "root",
     password: "",
     database: "GORGONIO_DB",
-    synchronize: true,
+    synchronize: false,
     logging: true,
     entities: [User],
     migrations: [],

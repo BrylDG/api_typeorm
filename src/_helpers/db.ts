@@ -10,7 +10,7 @@ export const AppDataSource = new DataSource({
     password: '',
     database: 'GORGONIO_DB',
     entities: [User],
-    synchronize: true, // Set to false in production
+    synchronize: false, // Set to false in production
     logging: true,
 });
 
